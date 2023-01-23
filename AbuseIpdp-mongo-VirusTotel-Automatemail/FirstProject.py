@@ -13,7 +13,7 @@ IP_CSV = pandas.read_csv((file_path))
 ip=IP_CSV['IP'].tolist()
 
 
-API_KEY = 'd449e8b1d723cad2d3a2c82455e7346d66804ab1faafbdd33963dc98275926eabe2804191095b440'
+API_KEY = 'Your api key'
 url = 'https://api.abuseipdb.com/api/v2/check'
 
 csv_columns = ['ipAddress','isPublic','ipVersion','isWhitelisted','abuseConfidenceScore','countryCode','usageType','isp','domain','hostnames','totalReports','numDistinctUsers','lastReportedAt']
@@ -47,7 +47,7 @@ Urls = IP_CSV['IP'].tolist()
 API_key = 'YourAPIkey'
 url = 'https://www.virustotal.com/vtapi/v2/url/report'
 
-API_key = '417d0360f16cfb585dc7e93f25506fd10498e475409bca93d81a3892e02f76a0'
+API_key = 'Your api key'
 url = 'https://www.virustotal.com/vtapi/v2/url/report'
 
 
